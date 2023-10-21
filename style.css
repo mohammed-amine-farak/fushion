@@ -13,10 +13,23 @@ body{
     position: absolute;
     height: 30%;
     width: 100%;
-    background-color: #FFF;
+    background-color:rgba(24, 24, 24, 0.737);
    
     bottom: 50%;
-
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   
+    
+}
+.navbar a{
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:#FFF;
+    font-family: Bona Nova;
 }
 
 .nne{
@@ -320,13 +333,13 @@ line-height: normal;
 .reviews p{
     color: #FFF;
     font-family: Jura;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 .reviews h4{
-    margin-top: 10px;
+  
     color: #FFF;
 font-family: Jura;
 font-size: 19px;
@@ -385,7 +398,7 @@ line-height: normal;
 .child-faq-text1 p{
     color: #FFF;
     font-family: Jura;
-    font-size: 27.421px;
+    font-size: 19.421px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -393,6 +406,7 @@ line-height: normal;
 .child-faq-text1 h4{
     font-size: 20px;
     color: #FFF;
+    cursor: pointer;
 }
 .ansawer{
     height: 50%;
@@ -455,3 +469,4 @@ opacity: 0.2;
         width: 80%;
     }
 }
+

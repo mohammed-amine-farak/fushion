@@ -21,7 +21,7 @@ icon1.onclick= function(){
 if(x==true){
 
     container1.style.height = "100px"
-    text1.innerText= "";
+    text1.innerText= "hbuyfjàçvixvu)dfà_bç)foc";
     x=false;
 }
 else{

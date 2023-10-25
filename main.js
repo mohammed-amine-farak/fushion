@@ -9,6 +9,8 @@ let container3 = document.getElementById('faq-container3')
 let text1 = document.getElementById('para1')
 let text2 = document.getElementById('para2')
 
+let password = document.getElementById('password')
+let send = document.getElementById('send')
 ////var section//////////
 nav.classList.add('nne')
 
@@ -21,7 +23,7 @@ icon1.onclick= function(){
 if(x==true){
 
     container1.style.height = "100px"
-    text1.innerText= "hbuyfjàçvixvu)dfà_bç)foc";
+    text1.innerText= "";
     x=false;
 }
 else{
@@ -50,7 +52,5 @@ icon2.onclick= function(){
     }
         
     }
-    
-
-
-
+ 
+     

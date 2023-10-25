@@ -21,6 +21,14 @@
     justify-content: center;
     align-items: center;             
 }
+.title-subscribe p{
+  color: #FFF;
+            font-family: Inter;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+}
 .container-subscribe-input{
     margin-top: 30px;
     height: 90%;
@@ -56,6 +64,7 @@ justify-content: space-between;
                    
     margin-top: 20px;
 }
+
 .button-send{
     height: 71px;
     width: 299px;
@@ -76,9 +85,53 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-@media(max-width:1026px){
+.name-input p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 29.12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.all-input p{
+ color: #FFF;
+             font-family: Inter;
+             font-size: 29.12px;
+             font-style: normal;
+             font-weight: 800;
+             line-height: normal;
+}
+@media(max-width:768px){
+      .title-subscribe p{
+        font-size: 30px;
+      }
+      .container-subscribe-input-child{
+        width:85% ;
+      }
+     .title p{
+        font-size: 35px;
+        margin-right:90px;
+     }
+     
+}
+@media(max-width:611px){
+    .title-subscribe p{
+      font-size:30px;
+    }
     .container-subscribe-input-child{
-
-        width: 600px;
-    }   
+      width:85% ;
+    }
+     .name-input{
+        width: 170px;
+     }
+     .name-input p{
+     font-size: 18px;
+     }
+     .button-send{
+       width: 100px; 
+       margin-left: 35%;
+     }
+     .all-input p{
+      font-size: 18px;
+     }
 }

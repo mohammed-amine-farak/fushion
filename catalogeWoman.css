@@ -13,7 +13,9 @@ body{
     background-color: black;
     height: 20vh;
 }
-
+img{
+    border-radius: 35px;
+}
 .cataloge-section-woman{
     height: 1950px;
     width: 100%;

@@ -8,7 +8,7 @@ let container2 = document.getElementById('faq-container2')
 let container3 = document.getElementById('faq-container3')
 let text1 = document.getElementById('para1')
 let text2 = document.getElementById('para2')
-
+let text3 = document.getElementById('para3')
 let password = document.getElementById('password')
 let send = document.getElementById('send')
 ////var section//////////
@@ -23,7 +23,7 @@ icon1.onclick= function(){
 if(x==true){
 
     container1.style.height = "100px"
-    text1.innerText= "";
+    text1.innerText= "yes sir we can do this ";
     x=false;
 }
 else{
@@ -50,7 +50,22 @@ icon2.onclick= function(){
         y=true;
        
     }
-        
+}
+var z = true
+icon3.onclick= function(){
+    if(z==true){
+    
+        container3.style.height = "100px"
+        text3.innerText= "you have to add a cv";
+        z=false;
     }
+    else{
+        container3.style.height = "50px"
+        text3.innerText= null;
+    
+        z=true;
+       
+    }
+}
  
      

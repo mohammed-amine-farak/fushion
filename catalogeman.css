@@ -13,7 +13,9 @@ body{
     background-color: black;
     height: 20vh;
 }
-
+img{
+    border-radius: 35px;
+}
 .cataloge-section-man{
     height: 1950px;
     width: 100%;
@@ -209,14 +211,14 @@ line-height: normal;
       }
      .cataloge-man{
        flex-wrap: wrap;
-       align-items: center;
-
+      
      }
      .cataloge-man1{
        width: 90%;
        height: 100%;
        display: flex;
        flex-direction: column;
+       margin-left: 50px;
    
    }
    .cataloge-man2{
@@ -224,6 +226,7 @@ line-height: normal;
        height: 100%;
        display: flex;
        flex-direction: column;
+       margin-left: 50px;
    }  
    .cataloge-man-kids{
     width: 100%;
@@ -232,7 +235,5 @@ line-height: normal;
     display: flex;
     flex-direction: column;
 }
-   .cataloge-man2{
-    margin-left: 0%;
-   }
+   
 }

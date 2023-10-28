@@ -31,7 +31,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+    margin-top: 80px; 
+    margin-bottom: 50px;
 }
 .title-cataloge p{
     color: #FFF;
